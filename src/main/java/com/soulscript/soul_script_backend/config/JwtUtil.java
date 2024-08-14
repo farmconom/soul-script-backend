@@ -14,7 +14,7 @@ import java.util.function.Function;
 @Component
 public class JwtUtil {
 
-    private final String SECRET_KEY = "your_secret_key"; // Replace with your actual secret key
+    private final String SECRET_KEY = "#;N(3O9}RD%n@lz"; // Replace with your actual secret key
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
